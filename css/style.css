@@ -1080,10 +1080,14 @@ ul.step li:last-child::after {
   gap: 1rem; /*このブロック内のボックス同士の間に空ける余白。１文字分。*/
 }
 
+
 /*メニューブロック*/
 #footer div.footer2 {
   flex: 1;
 }
+
+
+
 
 /*画面700px以上の追加指定*/
 @media screen and (min-width: 700px) {
@@ -1100,11 +1104,6 @@ ul.step li:last-child::after {
 } /*追加指定ここまで*/
 
 /*Copyright部分*/
-#footer small {
-  display: block;
-  text-align: right;
-  margin-top: 2rem;
-}
 
 /*SNSアイコン
 ---------------------------------------------------------------------------*/
@@ -1270,15 +1269,8 @@ ul.step li:last-child::after {
 }
 
 
-
-
-
-/*著作部分（※意図的に見えなくしたりしないで下さい。規約違反になります。）
----------------------------------------------------------------------------*/
 .footer-bottom {
-  display: flex;
-  justify-content: space-between; /* 左右に分ける */
-  align-items: center;            /* 高さを揃える */
+ text-align: center;
   padding: 0.5rem 1rem;
   background: #555;
   font-size: 0.8rem;
